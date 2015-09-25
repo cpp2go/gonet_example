@@ -2,8 +2,8 @@
 
 go get github.com/gogo/protobuf/proto
 
-go get https://github.com/golang/protobuf
+go get github.com/golang/protobuf
 
-go get https://github.com/cpp2go/gonet
+go get github.com/cpp2go/gonet
 
 
