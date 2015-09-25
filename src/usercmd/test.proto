@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package usercmd;
+
+enum UserCmd 
+{
+	Login = 1;
+}
+
+message ReqUserLogin 
+{
+	required string Account  = 1; 
+	required string Password = 2;
+	required uint32 Key      = 3;
+}
+
+
